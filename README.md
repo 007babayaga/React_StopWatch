@@ -43,10 +43,10 @@ https://stopwatch-tawny-three.vercel.app/
 - Time updates every second until stopped.
 - Time is converted to `HH:MM:SS` format using `padStart()` for consistent UI.
 
-### 🏁 Lap Function
+### 🏁 Getting Started
 
 ```js
-setLap((prev) => [...prev, `${uniformHours}:${uniformMin}:${uniformSeconds}`]);
+
 ## How to Start
 git clone https://github.com/your-username/react-stopwatch.git
 npm install
