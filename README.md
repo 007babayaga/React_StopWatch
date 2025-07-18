@@ -47,4 +47,16 @@ https://stopwatch-tawny-three.vercel.app/
 
 ```js
 setLap((prev) => [...prev, `${uniformHours}:${uniformMin}:${uniformSeconds}`]);
+## How to Start
+git clone https://github.com/your-username/react-stopwatch.git
+npm install
+npm run dev
+
+##Project Structure
+src/
+├── Components/
+│   └── Header.jsx     # Contains stopwatch UI and logic
+├── App.jsx
+├── main.jsx
+└── index.css
 
